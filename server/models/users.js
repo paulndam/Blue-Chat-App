@@ -1,4 +1,9 @@
+//creating a const variable that will hold our array of users
+
 const users = [];
+
+//helper function th add a user or creating a user
+//passing in arguments if the id , name and room
 
 const addUser = ({ id, name, room }) => {
   name = name.trim().toLowerCase();

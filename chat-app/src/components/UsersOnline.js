@@ -2,7 +2,6 @@ import React from "react";
 import onlineIcon from "../icons/onlineIcon.png";
 import "./UsersOnline.css";
 
-//here we are going to be displaying all users that are online , so we are going to pass our props users as an argument in our function
 const UsersOnline = ({ users }) => (
   <div className="UsersContainer">
     <div>
@@ -26,7 +25,6 @@ const UsersOnline = ({ users }) => (
       </h3>
     </div>
 
-    {/* now we are going to do logic to display usersOnline  and of there's no user online it will retun null*/}
     {users ? (
       <div>
         <h2>Users Online</h2>

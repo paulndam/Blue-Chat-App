@@ -20,7 +20,7 @@ const Chat = ({ location }) => {
   //and have a const to specify all single messages and we can push it in our useeffect below
   const [message, setmessage] = useState("");
   const [messages, setmessages] = useState([]);
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://the-blue-chat-app.herokuapp.com/";
 
   useEffect(() => {
     //retrieving data from user while they join the chat, we do that by using the querystring and the parse it
@@ -86,12 +86,6 @@ const Chat = ({ location }) => {
           setmessage={setmessage}
           sendMessage={sendMessage}
         />
-        {/* <input
-          value={message}
-          onChange={(e) => setmessage(e.target.value)}
-          //   on key press is for actually sending our messages and if the user press the enter which is what our function is ready to listen to, it will send the send message but if the enter key is not pressed or enter then our function does nada
-          onKeyPress={(e) => (e.key === "Enter" ? sendMessage(e) : null)}
-        /> */}
       </div>
       <UsersOnline users={users} />
     </div>
