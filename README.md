@@ -2,7 +2,7 @@
 
 ## Blue Chat App
 
-[live Site](https://5f3ec5640cca8f0171eb4825--hardcore-jang-fe53a1.netlify.app/)
+[live Site](https://bluechat.netlify.app/)
 
 ![BlueChat](https://png.pngtree.com/thumb_back/fh260/background/20201019/pngtree-dark-blue-technology-background-with-digital-network-lines-and-illustration-of-image_423420.jpg)
 
